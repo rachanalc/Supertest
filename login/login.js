@@ -8,6 +8,7 @@ const login = async () => {
       password: "test1",
     });
   console.log("hello beautiful...");
+  console.log("hi");
   return response.headers["set-cookie"];
 };
 module.exports = { login };
