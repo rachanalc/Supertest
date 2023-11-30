@@ -10,6 +10,7 @@ const login = async () => {
     });
   console.log("hello beautiful...");
   console.log("hi");
+  console.log("lkjhgf");
   return response.headers["set-cookie"];
 };
 module.exports = { login };
