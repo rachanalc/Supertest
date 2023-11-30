@@ -39,8 +39,8 @@ describe("Positive cases", () => {
 
 //   });
 
-//   console.log(response.body);
-//   expect(response.status).toBe(200);
+  console.log(response.body);
+  // expect(response.status).toBe(200);
   
   
 // })
