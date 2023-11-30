@@ -8,8 +8,8 @@ const login = async () => {
       username: "superman",
       password: "test1",
     });
-  console.log("hello beautiful...");
   console.log("merge error came...");
+
   return response.headers["set-cookie"];
 };
 module.exports = { login };
